@@ -1,0 +1,32 @@
+/*
+  PWM:
+      TIM3    PB 00 04 05
+      
+  USART/UART: RX¡ý     TX¡ý 
+      USART1  PB07    PB06	    Both OK
+      USART2  PA03    PA02      Both OK
+      USART3  PB11    PB10      Both OK
+      UART4   PC11    PC10      Both OK
+      UART5   PD02    PC12      Both OK
+      USART6  PC07    PC06      Both OK
+  LED:
+      PD12 13 14 15
+  EXTI:
+      PA00
+      
+  ALL:
+      PA  00(EXTI)        02,03(USART2)     
+      PB  00,04,05(PWM)   06,07(USART1)     10,11(USART3)
+      PC  06,07(USART6)   10,11(UART4)      12(UART5)
+      PD  02(UART5)       12,13,14,15(GPIO)
+      PE  04,05(EXTI)    
+      
+      
+    USART1  TX:DMA2 Stream7 Channel4  RX:DMA2 Stream2 Channel4
+    USART2  TX:DMA1 Stream6 Channel4  RX:DMA1 Stream5 Channel4
+    USART3  TX:DMA1 Stream3 Channel4  RX:DMA1 Stream1 Channel4
+    UART4   TX:DMA1 Stream4 Channel4  RX:DMA1 Stream2 Channel4
+    UART5   TX:DMA1 Stream7 Channel4  RX:DMA1 Stream0 Channel4
+    USART6  TX:DMA2 Stream6 Channel5  RX:DMA2 Stream2 Channel5
+
+*/

@@ -1,0 +1,144 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[Interrupts]
+Enabled=1
+[MemoryMap]
+Enabled=0
+Base=0
+UseAuto=0
+TypeViolation=1
+UnspecRange=1
+ActionState=1
+[Trace1]
+Enabled=0
+ShowSource=1
+[DebugChecksum]
+Checksum=-330758351
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[StackPlugin]
+Enabled=1
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnHow=0
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[SWOTraceHWSettings]
+OverrideDefaultClocks=1
+CpuClock=168000000
+ClockAutoDetect=0
+ClockWanted=2000000
+JtagSpeed=2000000
+Prescaler=84
+TimeStampPrescIndex=0
+TimeStampPrescData=0
+PcSampCYCTAP=1
+PcSampPOSTCNT=15
+PcSampIndex=0
+DataLogMode=0
+ITMportsEnable=1
+ITMportsTermIO=1
+ITMportsLogFile=0
+ITMlogFile=$PROJ_DIR$\ITM.log
+[array_types]
+Fmt0=u8[100]	4	0
+Fmt1=u8[12]	3	0
+Fmt2=u8[14]	3	0
+Fmt3=u8[20]	4	0
+Fmt4=u8[4]	3	0
+Fmt5=u8[5]	3	0
+Fmt6=u8[9]	3	0
+[DataLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+[InterruptLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Trace2]
+Enabled=0
+[SWOTraceWindow]
+PcSampling=0
+InterruptLogs=0
+ForcedTimeStamps=0
+EventCPI=0
+EventEXC=0
+EventFOLD=0
+EventLSU=0
+EventSLEEP=0
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=3
+Graph=0
+Symbiont=0
+Exclusions=
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Bp0=_ 0 "EMUL_DATA" "LED_ORG_TOG" 0 0 0 0 4294967295
+Bp1=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\Coding\STM32Project-1408029-Before\Users\src\main.c}.274.9" 0 0 1 "" 0 "" 0
+Count=2
+[Aliases]
+A0=_ "C:\Users\Dooo\Desktop\Code\STM32Project-140730 - Nodiscovery\Users\src\Do_EXTI.c" "C:\Users\Dooo\Desktop\Coding\STM32Project_Empty-Nodiscovery\Users\src\Do_EXTI.c"
+A1=_ "C:\Users\Dooo\Desktop\Coding\STM32Project-140802 - Function\Drivers\CMSIS\Include\core_cm4.h" "C:\Users\Lzs\Desktop\Code\STM32Project-140802 - Function\Drivers\CMSIS\Include\core_cm4.h"
+A2=_ "C:\Users\Dooo\Desktop\Coding\STM32Project_Empty-Nodiscovery\Drivers\CMSIS\Include\core_cm4.h" ""
+A3=_ "C:\Users\Dooo\Desktop\Coding\STM32Project_Empty-Nodiscovery\Drivers\CMSIS\startup\startup_stm32f4xx.s" "C:\Users\Lzs\Desktop\STM32Project-140914 - Functions2\Drivers\CMSIS\startup\startup_stm32f4xx.s"
+A4=_ "C:\Users\Dooo\Desktop\Coding\STM32Project_Empty-Nodiscovery\Drivers\FWlib\src\misc.c" ""
+A5=_ "C:\Users\Dooo\Desktop\Coding\STM32Project_Empty-Nodiscovery\Drivers\FWlib\src\stm32f4xx_dma.c" "C:\Users\Dooo\Desktop\Coding\STM32Project-140805 - DMA and Communication\Drivers\FWlib\src\stm32f4xx_dma.c"
+A6=_ "C:\Users\Dooo\Desktop\Coding\STM32Project_Empty-Nodiscovery\Drivers\FWlib\src\stm32f4xx_exti.c" "C:\Users\user\Desktop\STM32Project-140905\Drivers\FWlib\src\stm32f4xx_exti.c"
+A7=_ "C:\Users\Dooo\Desktop\Coding\STM32Project_Empty-Nodiscovery\Drivers\FWlib\src\stm32f4xx_tim.c" "C:\Users\Dooo\Desktop\Coding\STM32Project-140801 - 6USART with PWM\Drivers\FWlib\src\stm32f4xx_tim.c"
+A8=_ "C:\Users\Dooo\Desktop\Coding\STM32Project_Empty-Nodiscovery\Drivers\FWlib\src\stm32f4xx_usart.c" "C:\Users\Dooo\Desktop\Coding\STM32Project-140801 - 6USART with PWM\Drivers\FWlib\src\stm32f4xx_usart.c"
+A9=_ "C:\Users\Dooo\Desktop\Coding\STM32Project_Empty-Nodiscovery\Users\src\Do_EXTI.c" ""
+A10=_ "C:\Users\Dooo\Desktop\Coding\STM32Project_Empty-Nodiscovery\Users\src\Do_GPIO.c" "C:\Users\Dooo\Desktop\Coding\STM32Project-140731\Users\src\Do_GPIO.c"
+A11=_ "C:\Users\Dooo\Desktop\Coding\STM32Project_Empty-Nodiscovery\Users\src\Do_USART.c" "C:\Users\Dooo\Desktop\Coding\STM32Project-140731\Users\src\Do_USART.c"
+A12=_ "C:\Users\Dooo\Desktop\Coding\STM32Project_Empty-Nodiscovery\Users\src\main.c" ""
+A13=_ "C:\Users\Lzs\Desktop\Code\STM32Project-140801 - 6USART with PWM\Drivers\CMSIS\Include\core_cm4.h" "C:\Users\Dooo\Desktop\Coding\STM32Project-140801 - 6USART with PWM\Drivers\CMSIS\Include\core_cm4.h"
+A14=_ "C:\Users\Lzs\Desktop\Code\STM32Project-140802 - Function\Drivers\FWlib\src\stm32f4xx_usart.c" "C:\Users\user\Desktop\STM32Project-140910 - Return\Drivers\FWlib\src\stm32f4xx_usart.c"
+A15=_ "C:\Users\Lzs\Desktop\Code\STM32Project-140803 - Function\Users\src\main.c" "C:\Users\Dooo\Desktop\Coding\STM32Project-140803 - Function\Users\src\main.c"
+A16=_ "C:\Users\Lzs\Desktop\Code\STM32Project-140809 - Queue\Users\src\Do_DMA.c" "C:\Users\user\Desktop\STM32Project-140905\Users\src\Do_DMA.c"
+A17=_ "C:\Users\Lzs\Desktop\STM32Project-140912 - Functions2\Users\src\main.c" "C:\Users\user\Desktop\STM32Project-140913 - Functions1\Users\src\main.c"
+A18=_ "C:\Users\Lzs\Desktop\STM32Project-140914 - Functions2\Users\src\main.c" "C:\Users\Lzs\Desktop\STM32Project-140914 - Functions3\Users\src\main.c"
+A19=_ "C:\Users\Lzs\Desktop\STM32Project-140914 - Functions5\Users\src\main.c" "C:\Users\user\Desktop\STM32Project-140915 - Need Test\Users\src\main.c"
+A20=_ "C:\Users\Lzs\Desktop\STM32Project-140923\Users\src\main.c" "C:\Users\user\Desktop\STM32Project-140923 - 12.21 - Lyr ok\Users\src\main.c"
+A21=_ "C:\Users\user\Desktop\STM32Project-140905\Users\src\Do_DMA.c" "C:\Users\user\Desktop\STM32Project-140910\Users\src\Do_DMA.c"
+A22=_ "C:\Users\user\Desktop\STM32Project-140910 - New\Users\src\main.c" "C:\Users\user\Desktop\STM32Project-140910 - Return\Users\src\main.c"
+A23=_ "C:\Users\user\Desktop\STM32Project-140910\Users\src\Do_DMA.c" "C:\Users\Lzs\Desktop\STM32Project-140910 - NoReturn\Users\src\Do_DMA.c"
+A24=_ "C:\Users\user\Desktop\STM32Project-140915 - Need Test\Users\src\main.c" "C:\Users\Lzs\Desktop\STM32Project-140923\Users\src\main.c"
+A25=_ "C:\Users\user\Desktop\STM32Project-140923 - 12.21 -No print Final\Users\src\main.c" "C:\Users\Lzs\Desktop\STM32Project-140923 - 12.21 -No print Final\Users\src\main.c"
+A26=_ "C:\Users\user\Desktop\STM32Project-140923 - 12.21 -Unfold new\Users\src\main.c" "C:\Users\Lzs\Desktop\STM32Project-140923 - 12.21 -Unfold OK\Users\src\main.c"
+A27=_ "C:\Users\user\Desktop\STM32Project-140923 - 12.21 -Unfold\Users\src\main.c" "C:\Users\user\Desktop\STM32Project-140923 - 12.21 -Unfold new\Users\src\main.c"
+A28=_ "F:\Mission\物联网-人机交互\STM32教程\Code\STM32Project\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_gpio.c" ""
+A29=_ "F:\Mission\物联网-人机交互\STM32教程\Code\STM32Project\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c" ""
+Count=30
+SuppressDialog=0

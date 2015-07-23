@@ -1,0 +1,17 @@
+Do_com.h:
+/* Buf Positions define */
+#define BUF_FUN   2     // Function
+#define BUF_ID0   3     // ID
+#define BUF_ID1   4
+#define BUF_ID2   5
+#define BUF_ID3   6     
+#define BUF_LYR   7     // Layer
+#define BUF_PRT   8     // Which Port
+#define BUF_R     9     // Red
+#define BUF_G     10    // Green
+#define BUF_B     11    // Blue
+#define BUF_L     12    // Luminance
+#define BUF_T     13    // Time or Times
+#define BUF_CHK   14    // Check Sum
+
+

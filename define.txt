@@ -1,0 +1,34 @@
+Do_com.h:
+/* Buf Positions define */
+#define BUF_FUN   2     // Function
+#define BUF_ID0   3     // ID
+#define BUF_ID1   4
+#define BUF_ID2   5
+#define BUF_ID3   6     
+#define BUF_LYR   7     // Layer
+#define BUF_PRT   8     // Which Port
+#define BUF_R     9     // Red
+#define BUF_G     10    // Green
+#define BUF_B     11    // Blue
+#define BUF_L     12    // Luminance
+#define BUF_T     13    // Time or Times
+#define BUF_CHK   14    // Check Sum
+
+/* Function defination */
+#define	FUN_ASK_ID	        0       //寻找设备，设置ID
+#define FUN_RETURN_ID	        1       //返回所有设备ID值
+#define FUN_DELAY               2       //一段时间不执行
+
+#define FUN_CHG_HUE             3       //改变颜色
+#define FUN_CHG_LYR_HUE         4       //改变某层所有颜色
+#define FUN_CHG_SPC_LYR_HUE     5       //改变特定ID后一层的颜色
+#define FUN_CHG_SPC_BHD_HUE     6       //改变特定ID后面所有的颜色
+ 
+#define FUN_FLK_ONCE            7       //闪烁1次
+#define FUN_FLK_TIME            8       //闪烁n次
+#define FUN_FLK_LAST            9       //持续闪烁
+
+#define FUN_TREE_ONCE           10      //树状扩散1次 
+#define FUN_TREE_TIME           11      //树状扩散多次     
+#define FUN_TREE_LAST           12      //树状扩散持续  
+
